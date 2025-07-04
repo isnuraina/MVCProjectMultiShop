@@ -1,0 +1,59 @@
+﻿@model MultiShopProject.Models.Entities.Product
+
+@{
+    ViewData["Title"] = "Create Product";
+}
+
+<h2>Create Product</h2>
+
+<form asp-action="Create" enctype="multipart/form-data" method="post">
+    @Html.AntiForgeryToken()
+
+    <div asp-validation-summary="All" class="text-danger"></div>
+
+    <div class="form-group">
+        <label asp-for="Name"></label>
+        <input asp-for="Name" class="form-control" />
+        <span asp-validation-for="Name" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Title"></label>
+        <input asp-for="Title" class="form-control" />
+        <span asp-validation-for="Title" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Descrption"></label>
+        <textarea asp-for="Descrption" class="form-control"></textarea>
+        <span asp-validation-for="Descrption" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="Price"></label>
+        <input asp-for="Price" class="form-control" />
+        <span asp-validation-for="Price" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="OldPrice"></label>
+        <input asp-for="OldPrice" class="form-control" />
+        <span asp-validation-for="OldPrice" class="text-danger"></span>
+    </div>
+
+    <div class="form-group">
+        <label>Product Image</label>
+        <input type="file" name="ImageFile" class="form-control" />
+        <span class="text-danger">@ViewData.ModelState["ImageFile"]?.Errors.FirstOrDefault()?.ErrorMessage</span>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="CategoryId"></label>
+        <select asp-for="CategoryId" asp-items="ViewBag.Categories" class="form-control">
+            <option value="">-- Select Category --</option>
+        </select>
+        <span asp-validation-for="CategoryId" class="text-danger"></span>
+    </div>
+
+    <button type="submit" class="btn btn-success">Create</button>
+</form>

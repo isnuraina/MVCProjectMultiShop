@@ -34,6 +34,7 @@ wwwroot\css\bootstrap-reboot.css
 wwwroot\css\bootstrap-reboot.min.css
 wwwroot\css\style.css
 wwwroot\css\style.min.css
+wwwroot\img\a214c87b-23cf-4fac-ae08-57de7b452755.png
 wwwroot\img\carousel-1.jpg
 wwwroot\img\carousel-2.jpg
 wwwroot\img\carousel-3.jpg

@@ -1,9 +1,17 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35825.156 d17.13
+VisualStudioVersion = 17.13.35825.156
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShopProject", "MultiShopProject\MultiShopProject.csproj", "{CE4E4E8C-C77F-49A8-9539-7819D5157CB2}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShopProject.WebUI", "MultiShopProject\MultiShopProject.WebUI.csproj", "{CE4E4E8C-C77F-49A8-9539-7819D5157CB2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.WebAPI", "MultiShop.WebAPI\MultiShop.WebAPI.csproj", "{5F67A255-A45F-4D61-AEB3-CA36E10E53DD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ModelShop.Data", "ModelShop.Data\ModelShop.Data.csproj", "{24CC800D-1DBA-4123-AA4F-45D76FA6E7AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Business", "MultiShop.Business\MultiShop.Business.csproj", "{D8539484-2A49-460A-B499-DDF9F94A40D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiShop.Infrastructure", "MultiShop.Infrastructure\MultiShop.Infrastructure.csproj", "{B0F92C0D-BA62-4AD1-9E65-311C6A147F79}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +23,22 @@ Global
 		{CE4E4E8C-C77F-49A8-9539-7819D5157CB2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CE4E4E8C-C77F-49A8-9539-7819D5157CB2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CE4E4E8C-C77F-49A8-9539-7819D5157CB2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5F67A255-A45F-4D61-AEB3-CA36E10E53DD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5F67A255-A45F-4D61-AEB3-CA36E10E53DD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5F67A255-A45F-4D61-AEB3-CA36E10E53DD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5F67A255-A45F-4D61-AEB3-CA36E10E53DD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{24CC800D-1DBA-4123-AA4F-45D76FA6E7AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{24CC800D-1DBA-4123-AA4F-45D76FA6E7AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{24CC800D-1DBA-4123-AA4F-45D76FA6E7AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{24CC800D-1DBA-4123-AA4F-45D76FA6E7AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8539484-2A49-460A-B499-DDF9F94A40D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8539484-2A49-460A-B499-DDF9F94A40D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8539484-2A49-460A-B499-DDF9F94A40D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8539484-2A49-460A-B499-DDF9F94A40D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B0F92C0D-BA62-4AD1-9E65-311C6A147F79}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B0F92C0D-BA62-4AD1-9E65-311C6A147F79}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B0F92C0D-BA62-4AD1-9E65-311C6A147F79}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B0F92C0D-BA62-4AD1-9E65-311C6A147F79}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

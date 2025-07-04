@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Sb6Zec1Bz4w=",
+  "dgSpecHash": "Ituxg6FZiX8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\hp\\source\\repos\\MultiShopProject\\MultiShopProject\\MultiShopProject.csproj",
+  "projectFilePath": "C:\\Users\\hp\\source\\repos\\MVCMultiShop\\MultiShopProject\\MultiShopProject\\MultiShopProject.WebUI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hp\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\hp\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",

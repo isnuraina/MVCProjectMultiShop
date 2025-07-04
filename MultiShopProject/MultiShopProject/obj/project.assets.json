@@ -10265,11 +10265,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\hp\\source\\repos\\MultiShopProject\\MultiShopProject\\MultiShopProject.csproj",
-      "projectName": "MultiShopProject",
-      "projectPath": "C:\\Users\\hp\\source\\repos\\MultiShopProject\\MultiShopProject\\MultiShopProject.csproj",
+      "projectUniqueName": "C:\\Users\\hp\\source\\repos\\MVCMultiShop\\MultiShopProject\\MultiShopProject\\MultiShopProject.WebUI.csproj",
+      "projectName": "MultiShopProject.WebUI",
+      "projectPath": "C:\\Users\\hp\\source\\repos\\MVCMultiShop\\MultiShopProject\\MultiShopProject\\MultiShopProject.WebUI.csproj",
       "packagesPath": "C:\\Users\\hp\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\hp\\source\\repos\\MultiShopProject\\MultiShopProject\\obj\\",
+      "outputPath": "C:\\Users\\hp\\source\\repos\\MVCMultiShop\\MultiShopProject\\MultiShopProject\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
